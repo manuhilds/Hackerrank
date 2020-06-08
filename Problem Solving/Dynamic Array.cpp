@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    vector<int> seq{},res{}; 
+    vector<int> seq{},res{};
     int lastAnswer{},N,Q,type,x,y;
     cin >> N>>Q;
     vector<vector<int>> seqList(N,vector<int>{});
