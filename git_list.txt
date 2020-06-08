@@ -1,0 +1,12 @@
+to add new files : 
+    git add <file>
+to check changes before commit : 
+    git status 
+to commit : 
+    git commit -m "message to write" 
+to check commits before push : 
+    git diff --stat --cached origin/master
+to merge both origin and master
+    git pull --rebase
+to push master to origin/master
+    git push 
